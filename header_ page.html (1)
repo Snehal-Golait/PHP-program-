@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Header page</title> 
+  <style>
+      body {
+        height: 100vh;
+     }
+
+    .topnav {
+      background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+      display: flex;
+      align-items: center; /* Align items vertically */
+      height: max-content;
+     }
+
+    .heading-container {
+    text-align: center; /* Center align text */
+    margin-left: auto; /* Move to the right as much as possible */
+    margin-right: auto; /* Move to the left as much as possible */
+     }
+
+    .topnav h1,
+     .topnav h2 {
+        margin: 0; /* Remove default margin */
+        font-size: 35px;
+     }
+
+     .topnav h2 {
+         margin-top: 10px; /* Add space between h1 and h2 */
+      }
+
+    .nav-list{
+      list-style-type: none;
+       padding: 0;
+      margin: 20px 0; /* Add margin between the list and heading */
+      }
+
+      .nav-list li {
+        display: inline-block;
+         font-size:30px;
+         margin:40px;
+        }
+
+      .nav-list li a{
+        text-decoration: none;
+        }
+
+    .nav-list li a:hover{
+        color: red;
+      }
+  
+  </style> 
+ <style type="text/css" id="dcoder_stylesheet">body {
+    height: 100vh;
+}
+
+.topnav {
+    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+    display: flex;
+    align-items: center; /* Align items vertically */
+    height: max-content;
+}
+
+.heading-container {
+    text-align: center; /* Center align text */
+    margin-left: auto; /* Move to the right as much as possible */
+    margin-right: auto; /* Move to the left as much as possible */
+}
+
+.topnav h1,
+.topnav h2 {
+    margin: 0; /* Remove default margin */
+    font-size: 35px;
+}
+
+.topnav h2 {
+    margin-top: 10px; /* Add space between h1 and h2 */
+}
+
+.nav-list{
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0; /* Add margin between the list and heading */
+}
+
+.nav-list li {
+    display: inline-block;
+    font-size:30px;
+    margin:40px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+}
+
+.nav-list li a:hover{
+    color: red;
+}</style></head> 
+ <body> 
+  <div class="topnav"> 
+   <div class="heading-container"> 
+    <h1>Shri Vile Parle Kelavani Mandal's Institute of Technology Dhule</h1> 
+    <h2>Department of Information Technology</h2> 
+    <br> 
+    <ul class="nav-list"> 
+     <li><a href="#">Home</a></li> 
+     <li><a href="">About Us</a> </li> 
+     <li><a href="">Contact Us</a></li> 
+    </ul> 
+   </div> 
+  </div> 
+ 
+</body></html>
